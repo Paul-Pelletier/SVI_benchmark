@@ -9,6 +9,7 @@ int main()
 {
     SVIModel model;
 
+
     // Générer des strikes de -1 à 1
     std::vector<double> strikes;
     for (double k = -1.0; k <= 1.0; k += 0.1) {
